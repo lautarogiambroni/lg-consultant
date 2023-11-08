@@ -1,0 +1,25 @@
+.footer {
+    background-color: $color-footer;
+    color: #000000;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    div{
+        .social-links{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li{
+                display: inline;
+                margin-right: 10px;
+                a{
+                    color: map-get($social-links, color-pr);
+                    text-decoration: map-get($social-links, text-dec);
+                    font-size: map-get($social-links, size-pr);
+                }
+            }
+        }
+    }
+}

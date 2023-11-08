@@ -1,0 +1,12 @@
+// mixins
+// mixin con parametros
+
+@mixin flex($list-style, $justify-content, $align-items, $padding){
+    display: flex;
+    list-style: $list-style;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    padding: $padding
+
+}
+// mixin sin parametros
