@@ -2,7 +2,7 @@
 
 /* Reset */
 
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,51 +10,53 @@
 
 html{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-}
+} */
 
-header{
+/* header{
     background-color: #494949;
     position: relative;
     width: 100vw;
-}
+} */
 
 /* estilos menu navegacion */
-.menu-ul li a{
+/* .menu-ul li a{
     color: #163687;
     font-weight: bold;
-}
-.logo-navbarbar{
+} */
+/* .logo-navbarbar{
     width: 5vw;
     height: 5vw;
-}
+} */
 
-.lautaroimg{
-    width: 30vh;
-    height: 45vh;
-}
 
-main{
-    margin-top: 1vw;
-}
-
-header nav ul{
+/* header nav ul{
     display: flex;
     list-style: none;
     justify-content: space-evenly;
     align-items: center;
     padding: 15px 20px;
-}
+} */
 
-header nav ul li a{
+/* header nav ul li a{
     text-decoration: none;
     color: #344E41;
     font-size: 20px;
+} */
+
+/* Main index */
+
+/* main{
+    margin-top: 1vw;
 }
 
-/* Main */
+.lautaroimg{
+    width: 30vh;
+    height: 45vh;
+} */
 
+/* Main customers */
 
-.contenedor{
+/* .contenedor{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, auto);
@@ -70,14 +72,14 @@ header nav ul li a{
     width: 100%;
     height: 100%;
     object-fit: contain;
-}
+} */
 
 /* ------------------------------------- */
 
 
 
 /* Media query desktop */
-@media screen and (min-width: 1024px){
+/* @media screen and (min-width: 1024px){
     .contenedor{
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 30vh);
@@ -105,59 +107,6 @@ header nav ul li a{
     .img-cinco{
         grid-column: span 3;
     }
-}
-
-
-
-
-
-/* styles portfolio */
-
-/* .main-portfolio{
-    width: 80vh;
-    height: 60vh;
 } */
 
 
-
-
-/* main index */
-/* .banner{
-    height: 450px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.banner-text{
-    color: black;
-    font-size: 35px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-} */
-
-/* imagen y reunion */
-/* .reservar-slot .lautaroimg{
-    width: 400px;
-} */
-
-/* .reservar-slot .reunion-text{
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.redes{
-    flex-direction: column;
-    width: 30px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;}
